@@ -24,5 +24,22 @@
         height: 600px;
         padding-top:100px;
     }
+    .custom-product{
+        height: 600px; background-color:blueviolet;
+    }
+    img.slider-img{
+      height:400px !important
+    }
+    img.trending-image{
+        height:100px;
+    }
+    .trending-item{
+        float:left;
+        width:20%;
+
+    }
+    .trending-wrapper{
+        margin:30px;
+    }
  </style>
 </html>
