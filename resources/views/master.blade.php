@@ -45,10 +45,7 @@
     .search-box{
         width:500px   !important;
     }
-    .carousel-inner{
-        height:800px;
-        
-    }
+    
     
  </style>
 </html>

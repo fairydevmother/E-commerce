@@ -2,11 +2,7 @@
 @section("content")
 <div class="custom-product"><div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
+ 
 
   <!-- Wrapper for slides -->
   <div align="center" class="carousel-inner">
@@ -18,6 +14,7 @@
         <img  class="slider-img" src="{{$item['gallery']}}" >
         <div class="carousel-caption">
             <h3> {{$item['name']}}</h3>
+            
         </div>
       </a>
      </div>
@@ -45,10 +42,13 @@
       <div>
          <h3> {{$item['name']}} </h3>
          <p>{{$item['description']}}</p>
+         <button  class="btn btn-primary">Add to Cart</button>
+          <button class="btn btn-success">Buy Now</button>
       </div>
        </a>
     </div>
     @endforeach
+    
 </div>
 
 </div>
