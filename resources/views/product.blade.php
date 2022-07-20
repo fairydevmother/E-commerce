@@ -9,14 +9,17 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner">
+  <div align="center" class="carousel-inner">
     
 
-    @foreach ($products as $item)  <div class="item {{$item['id']==1?'active':''}}">
-        <img class="slider-img" src="{{$item['gallery']}}" >
+    @foreach ($products as $item)  
+    <div class="item {{$item['id']==1?'active':''}}">
+      <a href="detail/{{$item['id']}}">
+        <img  class="slider-img" src="{{$item['gallery']}}" >
         <div class="carousel-caption">
             <h3> {{$item['name']}}</h3>
         </div>
+      </a>
      </div>
     
  @endforeach
@@ -37,11 +40,13 @@
     <h3>Trending</h3>
     @foreach($products as $item)
      <div class="trending-item">
+     <a href="detail/{{$item['id']}}">
         <img class="trending-image" src="{{$item['gallery']}}" />
       <div>
          <h3> {{$item['name']}} </h3>
          <p>{{$item['description']}}</p>
       </div>
+       </a>
     </div>
     @endforeach
 </div>

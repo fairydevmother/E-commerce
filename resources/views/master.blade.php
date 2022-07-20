@@ -28,7 +28,8 @@
         height: 600px; background-color:blueviolet;
     }
     img.slider-img{
-      height:400px !important
+      height:400px !important;
+     
     }
     img.trending-image{
         height:100px;
@@ -41,5 +42,13 @@
     .trending-wrapper{
         margin:30px;
     }
+    .search-box{
+        width:500px   !important;
+    }
+    .carousel-inner{
+        height:800px;
+        
+    }
+    
  </style>
 </html>
