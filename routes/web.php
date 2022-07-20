@@ -31,4 +31,13 @@ Route::get("detail/{id}",[ProductController::class,'detail']);
 
 Route::get("search",[ProductController::class,'search']);
 
+Route::get("/cartList",[ProductController::class,'cartList']);
+
+Route::get("removeCart/{id}",[ProductController::class,'removeCart']);
+Route::get("ordernow",[ProductController::class,'ordernow']);
+Route::get("userOrders",[ProductController::class,'userOrders']);
+Route::post("register",[UserController::class,'register']);
+Route::view("register","register");
+
 Route::post("add_to_cart",[ProductController::class,'addToCart']);
+Route::post("checkout",[ProductController::class,'orderPlace']);

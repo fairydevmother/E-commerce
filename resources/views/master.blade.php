@@ -20,12 +20,16 @@
 
 </body>
  <style>
+    html,body{
+        margin:0 auto;
+    }
     .custom-login{
         height: 600px;
         padding-top:100px;
     }
     .custom-product{
-        height: 600px; background-color:blueviolet;
+        height: 600px;
+        
     }
     img.slider-img{
       height:400px !important;
