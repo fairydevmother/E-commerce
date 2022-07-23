@@ -1,11 +1,11 @@
 @extends('master')
 @section("content")
-<div class="custom-product"><div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+<div class="custom-product">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
  
 
   <!-- Wrapper for slides -->
-  <div align="center" class="carousel-inner">
+  <div" class="carousel-inner">
     
 
     @foreach ($products as $item)  
@@ -13,10 +13,12 @@
       <a href="detail/{{$item['id']}}">
         <img  class="slider-img" src="{{$item['gallery']}}" >
         <div class="carousel-caption">
-            <h3> {{$item['name']}}</h3>
-            
+            <h2> {{$item['name']}}</h2>
+
+           </a>
+           <p> {{$item['description']}}</p>
         </div>
-      </a>
+      
      </div>
     
  @endforeach
@@ -33,14 +35,18 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="trending-wrapper">
+
+
+</div>
+
+<div align="center" class="trending-wrapper">
     <h3>Trending</h3>
     @foreach($products as $item)
      <div class="trending-item">
      <a href="detail/{{$item['id']}}">
         <img class="trending-image" src="{{$item['gallery']}}" />
       <div>
-         <h3> {{$item['name']}} </h3>
+         <h2> {{$item['name']}} </h2>
          <p>{{$item['description']}}</p>
          <button  class="btn btn-primary">Add to Cart</button>
           <button class="btn btn-success">Buy Now</button>
@@ -50,8 +56,4 @@
     @endforeach
     
 </div>
-
-</div>
-
-
 @endsection

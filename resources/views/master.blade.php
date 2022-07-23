@@ -20,36 +20,68 @@
 
 </body>
  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet');
+    @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet" rel="stylesheet');
     html,body{
         margin:0 auto;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+    .search-box{
+        width:500px   !important;
+        
     }
     .custom-login{
         height: 600px;
         padding-top:100px;
     }
     .custom-product{
-        height: 600px;
+
+
+    }
+    .navbar-brand{
+        font-family: 'Fredoka One', cursive;
+        font-size:22px;
+      
+    }
+    .cart{
+        font-weight:600;
+    }
+    h3{
+        color:#9339fb;
+        font-size:30px;
+        font-family: 'Koulen', cursive;
         
+    }
+    .carousel-control {
+     background-image:none !important;
+     filter:none !important;
     }
     img.slider-img{
       height:400px !important;
-     
+      margin-left:195px;
+      border-radius:55px;
     }
-    img.trending-image{
+    .carousel-caption{
+        margin-left:480px;
+        margin-bottom:67px;
+    }
+   
+    .carousel-inner{
+       border-radius: 55px; 
+       background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+     img.trending-image{
         height:100px;
     }
     .trending-item{
         float:left;
-        width:20%;
+        width:30%;
 
     }
     .trending-wrapper{
-        margin:30px;
+        padding-top:200px;
+        
     }
-    .search-box{
-        width:500px   !important;
-    }
-    
     
  </style>
 </html>

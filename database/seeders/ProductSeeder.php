@@ -15,13 +15,25 @@ class ProductSeeder extends Seeder
     {
         
         DB::table('products')->insert([
-            'name'=>'Camera',
-            "price"=>"2400",
-            "description"=>"made in Korea",
+           [
+            'name'=>'Smart Phone',
+            "price"=>"1000",
+            "description"=>"Pretium nibh ipsum consequat nisl vel pretium lectus quam. ",
             "category"=>"electronics",
-            "gallery"=> "https://www.trendyol.com/kamera-x-c104032"
+            "gallery"=> "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-y90/list/blue.png"
+         
+           ],
+           [
+            'name'=>'Computer',
+            "price"=>"3400",
+            "description"=>"Pretium nibh ipsum consequat nisl vel pretium lectus quam. ",
+            "category"=>"electronics",
+            "gallery"=> "https://img-monsternotebook.mncdn.com/UPLOAD/product_semruk-s7-V8.1/Semruk.png"
 
-
+   
+           ]
+            
+        
         ]);
     }
 }

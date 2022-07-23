@@ -16,7 +16,7 @@ if(Session::has('user')){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">E-Comm</a>
+      <a style="  color:hsl(248, 53%, 58%);" class="navbar-brand" href="/">SHOP</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,10 +30,10 @@ if(Session::has('user')){
         <div class="form-group">
           <input type="text" name="query" class="form-control search-box" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Search</button>
+        <button style="background-color:#eeaeca; color:white;" type="submit" class="btn btn-default">Search</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="cartList">Cart({{$total}})</a></li>
+        <li><a class="cart" href="cartList">Cart({{$total}})</a></li>
         @if(Session::has('user'))
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="/"> {{Session::get('user')['name']}}       
