@@ -10,36 +10,36 @@ I will keep contributing. ☻</h4>
 <hr>
 
 ### Homepage
-<img src="e-commerce.png"/>
+<img src="website-img/e-commerce.png"/>
 
 <hr>
 
 ### Trending Items
-<img src="trending.png"/>
+<img src="website-img/trending.png"/>
 
 <hr>
 
 ### Login and Register Pages
-<img src="login.png"/>
-<img src="register.png"/>
+<img src="website-img/login.png"/>
+<img src="website-img/register.png"/>
 
 <hr>
 
 ### Search Results
-<img src="search.png"/>
+<img src="website-img/search.png"/>
 
 <hr>
 
 ### Shopping Cart
-<img src="cart.png"/>
+<img src="website-img/cart.png"/>
 
 <hr>
 
 ### Order and Checkout
-<img src="order.png"/>
-<img src="ordernow.png"/>
+<img src="website-img/order.png"/>
+<img src="website-img/ordernow.png"/>
 
 <hr>
 
 ### Footer
-<img src="footer.png"/>
+<img src="website-img/footer.png"/>
