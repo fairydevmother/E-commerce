@@ -1,6 +1,6 @@
 @extends('master')
 @section("content")
-<div class="custom-product">
+<div class="custom-product" style="">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
  
 
@@ -37,9 +37,10 @@
 </div>
 
 
-</div>
 
-<div align="center" class="trending-wrapper">
+</div>
+<div>
+ <div align="center" class="trending-wrapper">
     <h3>Trending</h3>
     @foreach($products as $item)
      <div class="trending-item">
@@ -55,5 +56,7 @@
     </div>
     @endforeach
     
+ </div> 
 </div>
+
 @endsection

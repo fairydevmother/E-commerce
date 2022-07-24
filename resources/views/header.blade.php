@@ -25,33 +25,36 @@ if(Session::has('user')){
         <li class="active"><a href="/">Home</a></li>
         <li><a href="userOrders">Orders</a></li>
         
-      </ul>
-      <form action="/search" class="navbar-form navbar-left">
+        <form action="/search" class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" name="query" class="form-control search-box" placeholder="Search">
         </div>
         <button style="background-color:#eeaeca; color:white;" type="submit" class="btn btn-default">Search</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
+        </form>
+
         <li><a class="cart" href="cartList">Cart({{$total}})</a></li>
         @if(Session::has('user'))
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="/"> {{Session::get('user')['name']}}       
+          <a class="dropdown-toggle" data-toggle="dropdown" href="/"> 
+            {{Session::get('user')['name']}}       
           
            <span class="caret"></span></a> 
        
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-          <li><a href="logout">Logout</a></li>
+          <ul class="dropdown-menu">
+          <li><a href="/logout">Logout</a></li>
           
         </ul>
 
       </li>
       @else
-        <li><a href="login">Login</a></li>
-        <li><a href="register">Register</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Register</a></li>
 
       @endif
       </ul>
+     
+      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
-</nav>
+</nav> 
+

@@ -26,14 +26,31 @@ class ProductSeeder extends Seeder
            [
             'name'=>'Computer',
             "price"=>"3400",
-            "description"=>"Pretium nibh ipsum consequat nisl vel pretium lectus quam. ",
+            "description"=>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "category"=>"electronics",
             "gallery"=> "https://img-monsternotebook.mncdn.com/UPLOAD/product_semruk-s7-V8.1/Semruk.png"
 
    
+           ],
+           [
+            'name'=>'Smart TV',
+            "price"=>"4400",
+            "description"=>"Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!",
+            "category"=>"electronics",
+            "gallery"=> "https://images.samsung.com/is/image/samsung/p6pim/tr/ue43au7000uxtk/gallery/tr-uhd-au7000-382854-ue43au7000uxtk-454386751?$720_576_PNG$"
+
+   
+           ],
+           [
+            'name'=>'Mouse',
+            "price"=>"30",
+            "description"=>"Pretium nibh ipsum consequat nisl vel pretium lectus quam. ",
+            "category"=>"electronics",
+            "gallery"=> "https://www.casper.com.tr/uploads/2021/07/excalibur-gx21-mouse-2_op.webp"
+
+   
            ]
-            
-        
+             
         ]);
     }
 }
