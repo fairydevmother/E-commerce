@@ -12,4 +12,7 @@
 
 ### I used bootstrap and css for design. 
 
-<h3>However, there are still bugs to fix and lot of components to add.</h3>
+<h4>PS: However, there are still bugs to fix and lot of components to add. ☻</h4>
+
+
+
