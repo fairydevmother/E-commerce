@@ -1,6 +1,15 @@
 
-
 <h1 align="center"> E-commerce Website with Laravel</h1>
 
+### Homepage
+
+<img src="e-commerce.png"/>
 <hr>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+### I used Laravel framework in the back-end of this web application.
+
+### Laravel framework uses php language and mysql database.
+
+### I used bootstrap and css for design. 
+
+<h3>However, there are still bugs to fix and lot of components to add.</h3>
