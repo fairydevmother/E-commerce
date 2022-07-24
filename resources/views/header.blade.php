@@ -4,6 +4,7 @@ use App\Http\Controllers\ProductController;
 $total=0;
 if(Session::has('user')){
   $total=ProductController::cartItem();
+ 
 };
 ?>
 <nav class="navbar navbar-default">
@@ -16,7 +17,7 @@ if(Session::has('user')){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a style="  color:hsl(248, 53%, 58%);" class="navbar-brand" href="/">SHOP</a>
+      <a style="color:hsl(248, 53%, 58%);" class="navbar-brand" href="/">SHOP</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -28,6 +29,7 @@ if(Session::has('user')){
         <form action="/search" class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" name="query" class="form-control search-box" placeholder="Search">
+      
         </div>
         <button style="background-color:#eeaeca; color:white;" type="submit" class="btn btn-default">Search</button>
         </form>

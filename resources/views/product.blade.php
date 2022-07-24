@@ -41,18 +41,22 @@
 </div>
 <div>
  <div align="center" class="trending-wrapper">
-    <h3>Trending</h3>
+    <h3 style="padding-bottom:25px;">Trending</h3>
     @foreach($products as $item)
      <div class="trending-item">
      <a href="detail/{{$item['id']}}">
         <img class="trending-image" src="{{$item['gallery']}}" />
       <div>
-         <h2> {{$item['name']}} </h2>
+         <h2> {{$item['name']}} </h2> 
          <p>{{$item['description']}}</p>
-         <button  class="btn btn-primary">Add to Cart</button>
-          <button class="btn btn-success">Buy Now</button>
+         
+         <button class="btn btn-primary">Add to Cart</button>
+          </a>
+          <a href="ordernow"><button class="btn btn-success">Buy Now</button>
+     </a>
+          
       </div>
-       </a>
+      
     </div>
     @endforeach
     

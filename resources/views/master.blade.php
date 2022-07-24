@@ -46,7 +46,7 @@
     }
     .cart{
         font-weight:600;
-        margin-left:260px;
+        margin-left:250px;
     }
     h3{
         color:#9339fb;
@@ -84,8 +84,7 @@
 
     }
     .trending-wrapper{
-        padding-top:200px;
-        height:800px;
+        height:600px;
         
     }
     .footer {

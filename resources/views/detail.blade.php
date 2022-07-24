@@ -31,7 +31,12 @@
    
          </div>
          <div class="col-sm-2">
-          <button  style="width:160px;height:70px;font-size:20px;" style="" class="btn btn-success">Buy Now</button></div></div>
+           <form action="ordernow" method="POST"> 
+            <button style="width:160px;height:70px;font-size:20px;" class="btn btn-success">
+            Buy Now</button>
+           </form>
+          
+          </div>
       </div>
      </div>
  

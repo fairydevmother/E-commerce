@@ -3,7 +3,7 @@
 <div class="custom-product">
 
     
-    <h3 align="center">Checkout</h3>
+  <h3 align="center">Checkout</h3>
 
     <table class="table">
   <tr>
